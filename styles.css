@@ -17,12 +17,21 @@
   width: 100vw;
   margin-bottom: 10vh;
   padding-top: 5vh;
+
+
   text-align: center;
   font-size: xx-large;
 }
 .container-white-2 p{
   padding-top: 5vh;
   padding-bottom: 5vh;
+  padding-left: 5vh;
+  padding-right: 5vh;
+}
+.container-white-2 h2{
+
+  padding-left: 5vh;
+  padding-right: 5vh;
 }
 .container-yellow{
   background-color: #FFD54F;
@@ -112,4 +121,19 @@
 @-ms-keyframes fadeIn {
   0% {opacity:0;}
   100% {opacity:1;}
+}
+
+@media only screen and (max-width: 600px) {
+  .text-div-3{
+    font-size: large;
+  }
+  .text-div-2{
+    font-size: large;
+  }
+  .text-div{
+    font-size: large;
+  }
+  .container-white-2{
+    font-size: large;
+  }
 }
